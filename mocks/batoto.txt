@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+  <html lang="en"  xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Batoto Comics</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href='http://bato.to/forums/favicon.ico' />
+    <link rel="image_src" href='http://bato.to/forums/public/style_images/subway/meta_image.png' />
+    <script type='text/javascript'>
+    //<![CDATA[
+      jsDebug     = 0; /* Must come before JS includes */
+      DISABLE_AJAX  = parseInt(0); /* Disables ajax requests where text is sent to the DB; helpful for charset issues */
+      inACP     = false;
+      var isRTL   = false;
+      var rtlIe   = '';
+      var rtlFull   = '';
+    //]]>
+    </script>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    
+  
+        
+  
+
+        
+  
+
+        
+  
+
+        
+  
+
+        
+      <link rel="stylesheet" type="text/css" title="Main" media="print" href="http://bato.to/forums/public/style_css/css_17/ipcontent_print.css?ipbv=bb2df3bfbb662cfd3b8c2fa0238cfaea" />
+    
+  
+  
+    <link rel="stylesheet" type="text/css" media='screen,print' href="http://bato.to/forums/public/min/index.php?ipbv=bb2df3bfbb662cfd3b8c2fa0238cfaea&amp;f=public/style_css/css_17/ipb_common.css,public/style_css/css_17/ipb_styles.css,public/style_css/css_17/ipcontent.css,public/style_css/css_17/calendar_select.css" />
+  
+
+<!--[if lte IE 7]>
+  <link rel="stylesheet" type="text/css" title='Main' media="screen" href="http://bato.to/forums/public/style_css/css_17/ipb_ie.css" />
+<![endif]-->
+<!--[if lte IE 8]>
+  <style type='text/css'>
+    .ipb_table { table-layout: fixed; }
+    .ipsLayout_content { width: 99.5%; }
+  </style>
+<![endif]-->
+
+  <style type='text/css'>
+    img.bbc_img { max-width: 100% !important; }
+  </style>
+
+    <meta property="og:title" content="Batoto Comics"/>
+    <meta property="og:site_name" content="Batoto Forums"/>
+    <meta property="og:type" content="article" />
+    
+  
+    
+    
+      <meta name="identifier-url" content="http://bato.to/search?name=tokyo&amp;name_cond=c" />
+    
+    
+      <meta property="og:url" content="http://bato.to/search?name=tokyo&amp;name_cond=c" />
+    
+    
+    
+  
+
+<meta property="og:image" content="http://bato.to/forums/public/style_images/subway/meta_image.png"/>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type='text/javascript'>!window.jQuery && document.write('<script src="http://bato.to/forums/public/style_images/subway/js/jquery.min.js"><\/script>')</script>
+    <script type='text/javascript' src="http://bato.to/forums/public/style_images/subway/js/cookie.js"></script>
+    <script type='text/javascript' src="http://bato.to/forums/public/style_images/subway/js/ipbforumskins.js"></script>
+    <script type="text/javascript">
+    jQuery.noConflict();
+
+    jQuery(document).ready(function($){
+
+      var backgroundElements = 'body.cpe, .cpe #logo, .cpe #primary_nav, .cpe #community_app_menu > li.active > a, .cpe #themeToggle';
+    
+      $("#themeEditor #editPattern span").click(function(){
+        var backgroundPattern = $(this).attr("data-pattern");
+        var backgroundRepeat = $(this).attr("data-backgroundRepeat");
+        var backgroundPosition = $(this).attr("data-backgroundPosition");
+        var backgroundAttach = $(this).attr("data-backgroundAttach");
+        var noHeaderImage = $(this).attr("data-noHeaderImage");
+        var backgroundClasses = backgroundRepeat + " " + backgroundPosition + " " + backgroundAttach + " " + noHeaderImage;
+        $(backgroundElements).removeClass("repeat repeat-x repeat-y scroll fixed centerCenter topCenter noHeaderImage").addClass(" " + backgroundClasses).css("background-image", "url(http://bato.to/forums/public/style_images/subway/patterns/" + backgroundPattern + ")");  
+        $.cookie('customPattern',backgroundPattern,{ expires: 365, path: '/'});
+        $.cookie('backgroundClasses',backgroundClasses,{ expires: 365, path: '/'});
+      });
+      
+      if ( ($.cookie('customPattern') != null)) {
+        $(backgroundElements).removeClass("repeat repeat-x repeat-y scroll fixed centerCenter topCenter noHeaderImage").addClass(" " + $.cookie('backgroundClasses')).css("background-image", "url(http://bato.to/forums/public/style_images/subway/patterns/" + $.cookie('customPattern') + ")");
+      }
+      else{
+        $(backgroundElements).addClass("repeat topCenter fixed").css("background-image","url(http://bato.to/forums/public/style_images/subway/patterns/shattered.png)");
+      }
+    
+    });
+    </script>
+    <script type='text/javascript' src='http://bato.to/forums/public/min/index.php?ipbv=bb2df3bfbb662cfd3b8c2fa0238cfaea&amp;g=js'></script>
+  
+  <script type='text/javascript' src='http://bato.to/forums/public/min/index.php?ipbv=bb2df3bfbb662cfd3b8c2fa0238cfaea&amp;charset=UTF-8&amp;f=public/js/ipb.js,cache/lang_cache/2/ipb.lang.js,public/js/ips.hovercard.js,public/js/ips.quickpm.js' charset='UTF-8'></script>
+
+
+<script type='text/javascript' src='/js/shortcuts_20131231.js'></script>
+  
+
+
+  
+
+
+
+<!-- Forces topic photo to show without thumb -->
+  <style type='text/css'>
+    .ipsUserPhoto_variable { max-width: 150px !important; }
+    
+      .post_body { margin-left: 185px !important; }
+    
+  </style><script type='text/javascript'>
+  //<![CDATA[
+    /* ---- URLs ---- */
+    ipb.vars['home_url']      = 'http://bato.to';
+    ipb.vars['base_url']      = 'http://bato.to/forums/index.php?s=c4cbbc900ac2c30144c86fa6c6c6a488&';
+    ipb.vars['board_url']     = 'http://bato.to/forums';
+    ipb.vars['img_url']       = "http://bato.to/forums/public/style_images/subway";
+    ipb.vars['loading_img']     = 'http://bato.to/forums/public/style_images/subway/loading.gif';
+    ipb.vars['active_app']      = 'ccs';
+    ipb.vars['upload_url']      = 'https://bato.to/forums/uploads';
+    /* ---- Member ---- */
+    ipb.vars['member_id']     = parseInt( 0 );
+    ipb.vars['is_supmod']     = parseInt( 0 );
+    ipb.vars['is_admin']      = parseInt( 0 );
+    ipb.vars['secure_hash']     = '880ea6a14ea49e853634fbdc5015a024';
+    ipb.vars['session_id']      = 'c4cbbc900ac2c30144c86fa6c6c6a488';
+    ipb.vars['twitter_id']      = 0;
+    ipb.vars['fb_uid']        = 0;
+    ipb.vars['auto_dst']      = parseInt( 0 );
+    ipb.vars['dst_in_use']      = parseInt(  );
+    ipb.vars['is_touch']      = false;
+    ipb.vars['member_group']    = {"g_mem_info":"1"}
+    /* ---- cookies ----- */
+    ipb.vars['cookie_id']       = '';
+    ipb.vars['cookie_domain']     = '.bato.to';
+    ipb.vars['cookie_path']     = '/';
+    /* ---- Rate imgs ---- */
+    ipb.vars['rate_img_on']     = 'http://bato.to/forums/public/style_images/subway/star.png';
+    ipb.vars['rate_img_off']    = 'http://bato.to/forums/public/style_images/subway/star_off.png';
+    ipb.vars['rate_img_rated']    = 'http://bato.to/forums/public/style_images/subway/star_rated.png';
+    /* ---- Uploads ---- */
+    ipb.vars['swfupload_swf']   = 'http://bato.to/forums/public/js/3rd_party/swfupload/swfupload.swf';
+    ipb.vars['swfupload_enabled'] = true;
+    ipb.vars['use_swf_upload']    = ( '' == 'flash' ) ? true : false;
+    ipb.vars['swfupload_debug']   = false;
+    /* ---- other ---- */
+    ipb.vars['highlight_color']     = "#ade57a";
+    ipb.vars['charset']       = "UTF-8";
+    ipb.vars['time_offset']     = "0";
+    ipb.vars['hour_format']     = "12";
+    ipb.vars['seo_enabled']     = 1;
+    
+    ipb.vars['seo_params']      = {"start":"-","end":"\/","varBlock":"?","varPage":"page-","varSep":"&","varJoin":"="};
+    
+    /* Templates/Language */
+    ipb.templates['inlineMsg']    = "";
+    ipb.templates['ajax_loading']   = "<div id='ajax_loading'><img src='http://bato.to/forums/public/style_images/subway/ajax_loading.gif' alt='" + ipb.lang['loading'] + "' /></div>";
+    ipb.templates['close_popup']  = "<img src='http://bato.to/forums/public/style_images/subway/close_popup.png' alt='x' />";
+    ipb.templates['rss_shell']    = new Template("<ul id='rss_menu' class='ipbmenu_content'>#{items}</ul>");
+    ipb.templates['rss_item']   = new Template("<li><a href='#{url}' title='#{title}'>#{title}</a></li>");
+    
+    ipb.templates['autocomplete_wrap'] = new Template("<ul id='#{id}' class='ipb_autocomplete' style='width: 250px;'></ul>");
+    ipb.templates['autocomplete_item'] = new Template("<li id='#{id}' data-url='#{url}'><img src='#{img}' alt='' class='ipsUserPhoto ipsUserPhoto_mini' />&nbsp;&nbsp;#{itemvalue}</li>");
+    ipb.templates['page_jump']    = new Template("<div id='#{id}_wrap' class='ipbmenu_content'><h3 class='bar'>Jump to page</h3><p class='ipsPad'><input type='text' class='input_text' id='#{id}_input' size='8' /> <input type='submit' value='Go' class='input_submit add_folder' id='#{id}_submit' /></p></div>");
+    ipb.templates['global_notify']  = new Template("<div class='popupWrapper'><div class='popupInner'><div class='ipsPad'>#{message} #{close}</div></div></div>");
+    
+    
+    ipb.templates['header_menu']  = new Template("<div id='#{id}' class='ipsHeaderMenu boxShadow'></div>");
+    
+    Loader.boot();
+  //]]>
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26671598-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- Quantcast Tag, part 1 -->
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")  
+                    + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);  
+    })();
+</script>
+  <script type='text/javascript'>   var weLoaded = false;
+  (function(){
+    if( typeof(_ccsLoadedAssets) == 'undefined' || !_ccsLoadedAssets )
+    {
+      if( !window.jQuery )
+      {
+        document.write("<"+"script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></"+"script>");
+        weLoaded  = true;
+      }
+    }
+  })();
+  </script>
+  <script type='text/javascript'>
+
+  (function(){
+    if( typeof(_ccsLoadedAssets) == 'undefined' || !_ccsLoadedAssets )
+    {
+      if( weLoaded ){
+        _ccsjQ = jQuery.noConflict();
+      } else {
+        _ccsjQ = jQuery;
+      }
+
+      document.write("<"+"script type='text/javascript' src='http://bato.to/forums/public/ipc_blocks/compiled.js'></"+"script>");
+      document.write("<"+"link rel='stylesheet' media='screen' type='text/css' href='http://bato.to/forums/public/ipc_blocks/compiled.css' /"+">");
+      document.write("<"+"link rel='stylesheet' media='screen' type='text/css' href='http://bato.to/forums/public/style_css/css_17/ipb_common.css' /"+">");
+    }
+  })();
+  var _ccsLoadedAssets = true;</script></head>
+
+  <body id='ipboard_body' class=' cpe'>
+<style type='text/css' id='stylePrimary'></style><style type='text/css' id='styleSecondary'></style>
+        <p id='content_jump' class='hide'><a id='top'></a><a href='#j_content' title='Jump to content' accesskey='m'>Jump to content</a></p>
+    <div id='ipbwrapper' class='wrapper'>
+
+<div id='user_bar' class='clearfix'>
+            <div id='user_navigation' class='not_logged_in'>
+                    
+                    <ul class='ipsList_inline'>
+                        <li>
+                            <span class='services'>
+                                
+                                
+                                    <a href='https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=login&amp;serviceClick=twitter'><img src='http://bato.to/forums/public/style_images/subway/loginmethods/twitter.png' alt='Log in with Twitter' /></a>
+                                
+                                
+                            </span>
+                            <a href='https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=login' title='Sign In' id='sign_in'><img src="http://bato.to/forums/public/style_images/subway/user_login.png" alt="" /> Sign In</a>
+                        </li>
+                        <li>
+                            <a href="https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=register" title='Create Account' id='register_link'><img src="http://bato.to/forums/public/style_images/subway/user_register.png" alt="" /> Create Account</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id='search' class='right'>
+  <form action="http://bato.to/forums/index.php?app=core&amp;module=search&amp;do=search&amp;fromMainBar=1" method="post" id='search-box' >
+    <fieldset>
+      <label for='main_search' class='hide'>Search</label>
+      <a href='/search?advanced=1' title='Advanced Comic Search' class='right' style='background: url("/images/nav_book.png") no-repeat scroll 50% 50% / 20px auto rgba(0, 0, 0, 0); height:34px; margin-left: 3px; text-indent: -3000em; width: 34px;'>Advanced Comic Search</a>
+      <a href='http://bato.to/forums/index.php?app=core&amp;module=search&amp;search_in=ccs' title='Advanced Search' accesskey='4' rel="search" id='adv_search' class='right'>Advanced</a>
+      <span id='search_wrap' class='right'>
+        <input type='text' id='main_search' name='search_term' class='inactive' size='17' tabindex='100' />
+        <span class='choice ipbmenu clickable' id='search_options' style='display: none'></span>
+        <ul id='search_options_menucontent' class='ipbmenu_content ipsPad' style='display: none'>
+          <li class='title'><strong>Search section:</strong></li>
+          
+          
+          
+                
+              
+          <li class='app'><label for='s_forums' title='Forums'><input type='radio' name='search_app' class='input_radio' id='s_forums' value="forums"  />Forums</label></li>
+          
+          <li class='app'><label for='s_core' title='Help Files'><input type='radio' name='search_app' class='input_radio' id='s_core' value="core"  />Help Files</label></li>
+          
+            
+          
+
+            
+          
+
+            
+          
+
+            
+          
+
+            <li class='app'>
+                <label for='s_ccs' title='Home'>
+                  <input type='radio' name='search_app' class='input_radio' id='s_ccs' value="ccs" checked="checked" />Home
+                </label>
+              </li>
+          
+
+            
+          
+        </ul>
+        <input type='submit' class='submit_input clickable' value='Search' />
+      </span>
+      
+    </fieldset>
+  </form>
+</div>
+
+</div>
+
+<div id='mainContent'>
+            
+      <!-- ::: BRANDING STRIP: Logo and search box ::: -->
+      <div id='branding' class='clearfix'>
+      
+      <div id='themeToggle'>
+        <span>Edit Style <img src='http://bato.to/forums/public/style_images/subway/useropts_arrow.png' /></span>
+      </div>
+
+    <!-- ::: APPLICATION TABS ::: -->
+    <div id='primary_nav' class='clearfix'>
+                <ul class='ipsList_inline' id='community_app_menu'>
+                    <!-- 
+                        <li id='nav_home' class='left'><a href='http://bato.to' title='Homepage' rel="home">Batoto</a></li>
+                     -->
+                    
+                              
+    
+      
+        
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+      
+      
+    
+
+      
+        
+                                <li id='nav_menu_1' class="left  ">
+              <a id='nav_menu_1_trigger' href='/search' title='' >Comics </a>
+              
+              
+            </li>
+        
+
+                                <li id='nav_menu_2' class="left  ">
+              <a id='nav_menu_2_trigger' href='/random' title='' >Random </a>
+              
+              
+            </li>
+        
+
+                                <li id='nav_menu_3' class="left  ">
+              <a id='nav_menu_3_trigger' href='/group' title='' >Groups </a>
+              
+              
+            </li>
+        
+
+                                <li id='nav_menu_4' class="left  ">
+              <a id='nav_menu_4_trigger' href='/myfollows' title='' >My Follows </a>
+              
+              
+            </li>
+        
+
+                    
+        
+      
+      <li id='nav_app_forums' class="left "><a href='http://bato.to/forums/' title='Go to Forums' >Forums</a></li>
+    
+
+      
+        
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+      
+      <li id='nav_app_members' class="left "><a href='http://bato.to/forums/members/' title='Go to Members' >Members</a></li>
+    
+
+      
+        
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+      
+      
+    
+
+      
+        
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+
+                    
+        
+      
+      <li id='nav_app_subscriptions' class="left "><a href='http://bato.to/forums/subscriptions/' title='Go to Donate' >Donate</a></li>
+    
+  
+  
+    
+            
+    
+
+            
+    
+
+            
+    
+
+            
+    
+
+            <li id='nav_menu_5' class="left  ">
+          <a id='nav_menu_5_trigger' href='/chat' title='' >Chat </a>
+          
+          
+        </li>
+    
+  
+                        
+                    
+                </ul>
+      </div>
+            
+      
+
+                <div id='logo'>
+                    
+                        <div style=" padding: 10px 0 0 20px;"><a href='http://bato.to' title='Go to community index' rel="home" accesskey='1'><img src='https://bato.to/forums/public/style_images/11_4_logo.png' alt='Logo' /></a></div>
+                    
+                </div>
+      </div>
+           
+      <div id='themeEditorWrap'><div id='themeEditor'>
+        <div id='editSecondary' class='clearfix'>
+          <strong>Primary:</strong>
+          <span style='background: #59b6dd;' data-secondary="59b6dd">Sky</span>
+          <span style='background: #55728b;' data-secondary="55728b">Slate</span>
+          <span style='background: #8263d8;' data-secondary="8263d8">Blackcurrant</span>
+          <span style='background: #ff74aa;' data-secondary="ff74aa">Watermelon</span>
+          <span style='background: #e04547;' data-secondary="e04547">Strawberry</span>
+          <span style='background: #ed6949;' data-secondary="ed6949">Orange</span>
+          <span style='background: #edbb46;' data-secondary="edbb46">Banana</span>
+          <span style='background: #6ab453;' data-secondary="6ab453">Apple</span>
+          <span style='background: #4daf7c;' data-secondary="4daf7c">Emerald</span>
+          <span style='background: #71665b;' data-secondary="71665b">Chocolate</span>
+          <span style='background: #333535;' data-secondary="333535">Marble</span>
+        </div>
+        <div id='editPrimary' class='clearfix'>
+          <strong>Secondary:</strong>
+          <span style='background: #59b6dd;' data-primary="59b6dd">Sky</span>
+          <span style='background: #55728b;' data-primary="55728b">Slate</span>
+          <span style='background: #8263d8;' data-primary="8263d8">Blackcurrant</span>
+          <span style='background: #ff74aa;' data-primary="ff74aa">Watermelon</span>
+          <span style='background: #e04547;' data-primary="e04547">Strawberry</span>
+          <span style='background: #ed6949;' data-primary="ed6949">Orange</span>
+          <span style='background: #edbb46;' data-primary="edbb46">Banana</span>
+          <span style='background: #6ab453;' data-primary="6ab453">Apple</span>
+          <span style='background: #4daf7c;' data-primary="4daf7c">Emerald</span>
+          <span style='background: #71665b;' data-primary="71665b">Chocolate</span>
+          <span style='background: #333535;' data-primary="333535">Marble</span>
+        </div>
+        <div id='editPattern' class='clearfix'>
+          <strong>Pattern:</strong>
+          <span data-pattern="blank.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Blank</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/wave.png");' data-pattern="wave.png" data-backgroundRepeat="repeat-x" data-backgroundPosition="topCenter" data-backgroundAttach="fixed" class='fitBackground'>Waves</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/squares.png");' data-pattern="squares.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Squares</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/paper.png");' data-pattern="paper.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Notes</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/shattered.png");' data-pattern="shattered.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed" class='fitBackground'>Sharp</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/wood.png");' data-pattern="wood.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Wood</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/rockface.png");' data-pattern="rockface.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Rockface</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/leather.png");' data-pattern="leather.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Leather</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/honey.png");' data-pattern="honey.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Honey</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/vertical.png");' data-pattern="vertical.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Vertical</span>
+          <span style='background-image: url("http://bato.to/forums/public/style_images/subway/patterns/triangles.png");' data-pattern="triangles.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Triangles</span>
+        </div>
+      </div></div>
+
+      <!-- ::: MAIN CONTENT AREA ::: -->
+      <div id='content' class='clearfix'>
+            <ul id='socialLinks'>
+                        
+                        <li><a href="http://twitter.com/#!/BatotoStatus" title="Follow us on Twitter"><img src="http://bato.to/forums/public/style_images/subway/social_twitter.png" alt="" /></a></li>
+                        
+</ul>
+        <!-- ::: NAVIGATION BREADCRUMBS ::: -->
+                <div id='secondary_navigation' class='clearfix'>
+                    <ol class='breadcrumb top ipsList_inline left' id='breadcrumb'>
+                                                <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class='first'>
+                                <a href='http://bato.to/forums/' itemprop="url">
+                                    <span itemprop="title">Batoto Forums</span>
+                                </a>
+                            </li>
+                            
+                        
+                            <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" >
+                                 <span itemprop="title">Batoto Comics</span>
+                            </li>
+                            
+                        
+                    </ol>
+                    <ul id='secondary_links' class='ipsList_inline right'>
+                        
+                        <li><a href='http://bato.to/forums/index.php?app=core&amp;module=search&amp;do=viewNewContent&amp;search_app=ccs' accesskey='2'>View New Content</a></li>
+                        
+                        <li><a href="http://bato.to/forums/index.php?app=core&amp;module=global&amp;section=navigation&amp;inapp=ccs" rel="quickNavigation" accesskey='9' id='quickNavLaunch' title="Open Quick Navigation"><img src="http://bato.to/forums/public/style_images/subway/icon_quicknav.png" alt="" /></a></li>
+                        
+                    </ul>
+                </div>
+
+      
+                
+                
+
+        
+                <noscript>
+                    <div class='message error'>
+                        <strong>Javascript Disabled Detected</strong>
+                        <p>You currently have javascript disabled. Several functions may not work. Please re-enable javascript to access full functionality.</p>
+                    </div>
+                    <br />
+                </noscript>
+        <!-- ::: CONTENT ::: -->
+        
+        <h1 class='ipsType_pagetitle'>Scanlations</h1>
+
+<form method="GET" action="search#anchor_search_results" id="comic_search_form" onsubmit="return update_comic_search('comic_search_form');">
+<div style="text-align: center; border: 1px solid #333333; border-radius: 4px;">
+    <div style="padding: 10px; text-align: center; background-color: #333333; border-radius: 3px; color: white; font-weight: bold; position: relative;">
+        Comic Name: <select name="name_cond" class="input_text">
+            <option value="c" selected="selected">Contains</option>
+            <option value="s" >Starts With</option>
+            <option value="e" >Ends With</option>
+        </select> <input class="input_text" type="text" name="name" style="width: 300px;" value="tokyo" />
+        <input type="submit" name="dosubmit" value="Search" class="input_submit" />
+                <a href="search?advanced=1" name="advanced_options_button" value="Advanced Options" class="input_submit" style="position: absolute; top: 10px; right: 10px; font-weight: normal;" onclick="$('advanced_options').toggle(); return false;">Advanced Options</a>
+        
+    </div>
+    <table id="advanced_options" style="display: none;">
+        <tr>
+            <td style="text-align: right; font-weight: bold;">Author/Artist Name:</td>
+            <td style="text-align: left; vertical-align: top;"><select name="artist_name_cond" class="input_text">
+                    <option value="c" >Contains</option>
+                    <option value="is" >Equals</option>
+                    <option value="s" >Starts With</option>
+                    <option value="e" >Ends With</option>
+                </select>
+                <input class="input_text" type="text" name="artist_name" style="width: 300px;" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td width="30%" style="width: 30%; text-align: right; font-weight: bold;"> Tags:<br/>
+                <span style="font-size: 0.7em;">Click to toggle between 
+                    <br/><img src="http://bato.to/forums/public/style_images/master/accept.png"/>include, <img src="http://bato.to/forums/public/style_images/master/delete.png"/>exclude<br/>and <img src="http://bato.to/forums/public/style_images/master/msg_new.png"/>either.</span></td>
+            <td width="70$" style="width: 70%; text-align: left; vertical-align: top;">
+                <div class="genre_buttons" onclick="genre_toggle('40')" data-tooltip="A comic-strip format, generally consists of gag comic strips within four panels of equal size ordered from top to bottom.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="40_marker" />
+    4-Koma
+</div><div class="genre_buttons" onclick="genre_toggle('1')" data-tooltip="A work typically depicting fighting, violence, chaos, and fast paced motion.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="1_marker" />
+    Action
+</div><div class="genre_buttons" onclick="genre_toggle('2')" data-tooltip="If a character in the story goes on a trip or along that line, your best bet is that it is an adventure manga. Otherwise, it's up to your personal prejudice on this case.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="2_marker" />
+    Adventure
+</div><div class="genre_buttons" onclick="genre_toggle('39')" data-tooltip="A comic that has won an award. The award must be given by an acknowledged awarding body.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="39_marker" />
+    Award Winning
+</div><div class="genre_buttons" onclick="genre_toggle('3')" data-tooltip="A dramatic work that is light and often humorous or satirical in tone and that usually contains a happy resolution of the thematic conflict.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="3_marker" />
+    Comedy
+</div><div class="genre_buttons" onclick="genre_toggle('41')" data-tooltip="A comic based on cooking">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="41_marker" />
+    Cooking
+</div><div class="genre_buttons" onclick="genre_toggle('9')" data-tooltip="Fan based work inspired by official anime or manga. Original works DO NOT fall under this category">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="9_marker" />
+    Doujinshi
+</div><div class="genre_buttons" onclick="genre_toggle('10')" data-tooltip="A work meant to bring on an emotional response, such as instilling sadness or tension.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="10_marker" />
+    Drama
+</div><div class="genre_buttons" onclick="genre_toggle('12')" data-tooltip="Ecchi is used to describe a category of manga and anime with sexually oriented content, that is common in works aimed at a predominantly male audience.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="12_marker" />
+    Ecchi
+</div><div class="genre_buttons" onclick="genre_toggle('13')" data-tooltip="Anything that involves, but not limited to, magic, dream world, and fairy tales.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="13_marker" />
+    Fantasy
+</div><div class="genre_buttons" onclick="genre_toggle('15')" data-tooltip="Girls dressing up as guys, guys dressing up as girls... Guys turning into girls, girls turning into guys... I think you get the picture.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="15_marker" />
+    Gender Bender
+</div><div class="genre_buttons" onclick="genre_toggle('17')" data-tooltip="A series involving one male character and many female characters (usually attracted to the male character). A Reverse Harem is when the genders are reversed.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="17_marker" />
+    Harem
+</div><div class="genre_buttons" onclick="genre_toggle('20')" data-tooltip="Having to do with old or ancient times.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="20_marker" />
+    Historical
+</div><div class="genre_buttons" onclick="genre_toggle('22')" data-tooltip="A painful emotion of fear, dread, and abhorrence; a shuddering with terror and detestation; the feeling inspired by something frightful and shocking.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="22_marker" />
+    Horror
+</div><div class="genre_buttons" onclick="genre_toggle('34')" data-tooltip="Literally &quot;Woman&quot;. Targets women 18-30. Female equivalent to seinen. Unlike shoujo the romance is more realistic and less idealized. The storytelling is more explicit and mature.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="34_marker" />
+    <u>Josei</u>
+</div><div class="genre_buttons" onclick="genre_toggle('27')" data-tooltip="As the name suggests, anything martial arts related. Any of several arts of combat or self-defense, such as aikido, karate, judo, or tae kwon do, kendo, fencing, and so on and so forth.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="27_marker" />
+    Martial Arts
+</div><div class="genre_buttons" onclick="genre_toggle('30')" data-tooltip="A work involving and usually concentrating on all types of large robotic machines.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="30_marker" />
+    Mecha
+</div><div class="genre_buttons" onclick="genre_toggle('42')" data-tooltip="Comics about doctors, nurses, etc. around the field of medicine.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="42_marker" />
+    Medical
+</div><div class="genre_buttons" onclick="genre_toggle('37')" data-tooltip="A music themed story">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="37_marker" />
+    Music
+</div><div class="genre_buttons" onclick="genre_toggle('4')" data-tooltip="Usually an unexplained event occurs, and the main protagonist attempts to find out what caused it.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="4_marker" />
+    Mystery
+</div><div class="genre_buttons" onclick="genre_toggle('38')" data-tooltip="A one-shot is a comic book that is a pilot or a stand-alone story created as a single issue, rather than the more typical series format.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="38_marker" />
+    Oneshot
+</div><div class="genre_buttons" onclick="genre_toggle('5')" data-tooltip="Usually deals with the philosophy of a state of mind, in most cases detailing abnormal psychology.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="5_marker" />
+    Psychological
+</div><div class="genre_buttons" onclick="genre_toggle('6')" data-tooltip="Any love related story. We will define love as between man and woman in this case. Other than that, it is up to your own imagination of what love is.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="6_marker" />
+    Romance
+</div><div class="genre_buttons" onclick="genre_toggle('7')" data-tooltip="Having a major setting of the story deal with some type of school.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="7_marker" />
+    School Life
+</div><div class="genre_buttons" onclick="genre_toggle('8')" data-tooltip="Short for science fiction, these works involve twists on technology and other science related phenomena which are contrary or stretches of the modern day scientific world.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="8_marker" />
+    Sci-fi
+</div><div class="genre_buttons" onclick="genre_toggle('32')" data-tooltip="Seinen means &quot;young Man.&quot; Manga and anime that specifically targets young adult males around the ages of 18 to 25 are seinen titles. The stories in seinen works appeal to university students and those in the working world. Typically the story lines deal with the issues of adulthood.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="32_marker" />
+    <u>Seinen</u>
+</div><div class="genre_buttons" onclick="genre_toggle('35')" data-tooltip="A work intended and primarily written for females. Usually involves a lot of romance and strong character development.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="35_marker" />
+    <u>Shoujo</u>
+</div><div class="genre_buttons" onclick="genre_toggle('16')" data-tooltip="Often synonymous with yuri, this can be thought of as somewhat less extreme. &quot;Girl's Love&quot;, so to speak.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="16_marker" />
+    Shoujo Ai
+</div><div class="genre_buttons" onclick="genre_toggle('33')" data-tooltip="A work intended and primarily written for males. These works usually involve fighting and/or violence.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="33_marker" />
+    <u>Shounen</u>
+</div><div class="genre_buttons" onclick="genre_toggle('19')" data-tooltip="Often synonymous with yaoi, this can be thought of as somewhat less extreme. &quot;Boy's Love&quot;, so to speak.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="19_marker" />
+    Shounen Ai
+</div><div class="genre_buttons" onclick="genre_toggle('21')" data-tooltip="As the name suggests, this genre represents day-to-day tribulations of one/many character(s). These challenges/events could technically happen in real life and are often -if not all the time- set in the present timeline in a world that mirrors our own.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="21_marker" />
+    Slice of Life
+</div><div class="genre_buttons" onclick="genre_toggle('23')" data-tooltip="Deals with series that are considered profane or offensive, particularly with regards to sexual content">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="23_marker" />
+    Smut
+</div><div class="genre_buttons" onclick="genre_toggle('25')" data-tooltip="As the name suggests, anything sports related. Baseball, basketball, hockey, soccer, golf, and racing just to name a few.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="25_marker" />
+    Sports
+</div><div class="genre_buttons" onclick="genre_toggle('26')" data-tooltip="Usually entails amazing and unexplained powers or events which defy the laws of physics.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="26_marker" />
+    Supernatural
+</div><div class="genre_buttons" onclick="genre_toggle('28')" data-tooltip="Contains events resulting in great loss and misfortune.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="28_marker" />
+    Tragedy
+</div><div class="genre_buttons" onclick="genre_toggle('36')" data-tooltip="A webtoon is a comic strip that is distributed via the Web. Usually webtoons are drawn in full color and read in one long strip per chapter.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="36_marker" />
+    Webtoon
+</div><div class="genre_buttons" onclick="genre_toggle('29')" data-tooltip="This work usually involves intimate relationships between men.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="29_marker" />
+    Yaoi
+</div><div class="genre_buttons" onclick="genre_toggle('31')" data-tooltip="This work usually involves intimate relationships between women.">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="31_marker" />
+    Yuri
+</div><div class="genre_buttons" onclick="genre_toggle('44')" data-tooltip="This is obviously not a genre. It's here to ease the use of the search function on Batoto. (Until we have something more fitting.)">
+    <img src="http://bato.to/forums/public/style_images/master/msg_new.png" id="44_marker" />
+    [no chapters]
+</div>                <input type="hidden" id="genres_input" name="genres" value="" autocomplete="off"/>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold;">Genre Inclusion Mode:</td>
+            <td style="text-align: left; vertical-align: top;">
+                <select name="genre_cond" class="input_text">
+                    <option value="and" >And ( All Selected Genres )</option>
+                    <option value="or" >Or ( Any Selected Genres ) </option>
+                </select>
+                And <img src="http://bato.to/forums/public/style_images/master/information.png" alt="More Info" 
+                     data-tooltip="An 'And' search will give you results that must have all of the selected genres. For example, if you select Action and Adventure, it will only select comics that has both action and adventure genres. Only applies to 'include' filter." />
+                / Or <img src="http://bato.to/forums/public/style_images/master/information.png" alt="More Info" 
+                     data-tooltip="An 'Or' search will give you results that must have either of the selected genres. For example, if you select Action and Adventure, it will select all comics that are under action and adventure genres. Only applies to 'include' filter." />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold;">Rating is Between:</td>
+            <td style="text-align: left; vertical-align: top;">
+                <input class="input_text" type="text" name="rating_low" style="width: 30px; text-align: right;" value="0.00" /> &le; rating &le; 
+                <input class="input_text" type="text" name="rating_high" style="width: 30px; text-align: right;" value="5.00" />
+                <img src="http://bato.to/forums/public/style_images/master/information.png" alt="More Info" 
+                     data-tooltip="Note that comic's scores are rounded to two decimal points. This form will also not accept beyond 2 decimal points." />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold;">Completed Series:</td>
+            <td style="text-align: left; vertical-align: top; padding: 8px 0;">
+                <label><input type="radio" name="completed" value="any" checked="checked"/> Any</label>
+                <label><input type="radio" name="completed" value="c" /> Completed</label>
+                <label><input type="radio" name="completed" value="i" /> Incomplete</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold;">Include Mature:</td>
+            <td style="text-align: left; vertical-align: top; padding: 8px 0;">
+                <label><input type="radio" name="mature" value="y" checked="checked"/> Yes</label>
+                <label><input type="radio" name="mature" value="n" /> No</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold; border-bottom: 1px solid #999999;">Type:</td>
+            <td style="text-align: left; vertical-align: top; padding: 8px 0; border-bottom: 1px solid #999999;">
+                <label><input type="radio" name="type" value="any" checked="checked"/> Any</label>
+                <label data-tooltip="Manga are comics of Japanese origin."><input type="radio" name="type" value="jp" /> Manga (Jp)</label>
+                <label data-tooltip="Manhwa are comics of Korean origin."><input type="radio" name="type" value="kr" /> Manhwa (Kr)</label>
+                <label data-tooltip="Manhua are comics of Chinese origin."><input type="radio" name="type" value="cn" /> Manhua (Cn)</label>
+                <label data-tooltip="An artbook is a title that contains purely art and has no story."><input type="radio" name="type" value="ar" /> Artbook</label>
+                <label><input type="radio" name="type" value="ot" /> Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold;">Order By:</td>
+            <td style="text-align: left; vertical-align: top; padding: 8px 0;">
+                <select name="order_cond" class="input_text">
+                    <option value="title" >Title</option>
+                    <option value="author" >Author</option>
+                    <option value="artist" >Artist</option>
+                    <option value="rating" >Rating</option>
+                    <option value="views" >Views*</option>
+                    <option value="update" >Last Update</option>
+                </select>
+                <select name="order" class="input_text">
+                    <option value="asc" >Ascending</option>
+                    <option value="desc" >Descending</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold;"></td>
+            <td style="text-align: left; vertical-align: top; padding: 8px 0;">
+                <input type="submit" name="dosubmit2" value="Search" class="input_submit" />
+                <input type="button" name="reset" value="Reset All Filters" class="input_submit" onclick="location.href='search'" />
+            </td>
+        </tr>
+    </table>
+</div>
+</form>
+<br/>
+<div id="comic_search_results"><a id="anchor_search_results" name="anchor_search_results"></a>    <h3 class="maintitle" style="text-align: left;">Comics</h3>    <table width="100%" class="ipb_table chapters_list" style="font-size:13px;">
+    <tbody>
+      <tr class="header">
+        <th style="width:auto;">Title</th>
+        <th style="width:27%;">Author/Artist</th>
+        <th style="width:15%;text-align: center;">Rating</th>
+        <th style="width:8%;text-align: center;">Views*</th>
+        <th style="width:5%;text-align: center;">Follows</th>
+        <th style="width:15%; text-align: right;">Last Update</th>
+      </tr>
+            <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(9768)" onclick="return show_search_info(9768);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_9768" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/doreiku-boku-to-23-nin-no-dorei-r9768"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Doreiku - Boku to 23-nin no Dorei (Tokyo Slaves)</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">OKADA Shinichi / OOISHI Hiroto</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.55/5"><div style="height: 100%; width: 90%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.55/5"></div></div></td>
+          <td style="text-align: center;">119.2k</td>
+          <td style="text-align: center;">584</td>
+          <td style="text-align: right;">--</td>
+      </tr>
+      <tr id="comic_rowo_9768" style="display:none;"><td colspan="6" id="comic_rowi_9768"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(13305)" onclick="return show_search_info(13305);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_13305" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/genji-the-deaths-friend-r13305"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Genji the Death&#39;s Friend (Tokyo Genji Monogari)</a></strong></td>
+          <td style="text-align: left;">AMAGI Seimaru / OZAKI Minami</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="0.00/5"><div style="height: 100%; width: 0%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="0.00/5"></div></div></td>
+          <td style="text-align: center;">7.7k</td>
+          <td style="text-align: center;">12</td>
+          <td style="text-align: right;">--</td>
+      </tr>
+      <tr id="comic_rowo_13305" style="display:none;"><td colspan="6" id="comic_rowi_13305"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(11293)" onclick="return show_search_info(11293);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_11293" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/giga-tokyo-toy-box-r11293"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Giga Tokyo Toy Box</a></strong></td>
+          <td style="text-align: left;">UME</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="0.00/5"><div style="height: 100%; width: 0%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="0.00/5"></div></div></td>
+          <td style="text-align: center;">13.5k</td>
+          <td style="text-align: center;">18</td>
+          <td style="text-align: right;">04 March 2014 - 12:58 PM</td>
+      </tr>
+      <tr id="comic_rowo_11293" style="display:none;"><td colspan="6" id="comic_rowi_11293"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(10055)" onclick="return show_search_info(10055);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_10055" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/hachi-nishi-yoshiyuki-r10055"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Hachi (NISHI Yoshiyuki) (HACHI-the 23 palace of Tokyo-)</a></strong></td>
+          <td style="text-align: left;">Nishi Yoshiyuki</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.50/5"><div style="height: 100%; width: 90%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.50/5"></div></div></td>
+          <td style="text-align: center;">22.9k</td>
+          <td style="text-align: center;">129</td>
+          <td style="text-align: right;">20 September 2015 - 03:22 PM</td>
+      </tr>
+      <tr id="comic_rowo_10055" style="display:none;"><td colspan="6" id="comic_rowi_10055"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(5646)" onclick="return show_search_info(5646);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_5646" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/hataraki-man-r5646"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Hataraki Man (Tokyo Style)</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">Anno Moyoko</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.44/5"><div style="height: 100%; width: 88%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.44/5"></div></div></td>
+          <td style="text-align: center;">65k</td>
+          <td style="text-align: center;">71</td>
+          <td style="text-align: right;">31 October 2013 - 07:47 PM</td>
+      </tr>
+      <tr id="comic_rowo_5646" style="display:none;"><td colspan="6" id="comic_rowi_5646"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(7018)" onclick="return show_search_info(7018);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_7018" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/kiseki-no-shounen-r7018"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Kiseki no Shounen (Tokyo, fin d'un monde (French))</a></strong></td>
+          <td style="text-align: left;">NOUJOU Junichi</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="3.98/5"><div style="height: 100%; width: 79%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="3.98/5"></div></div></td>
+          <td style="text-align: center;">162.7k</td>
+          <td style="text-align: center;">520</td>
+          <td style="text-align: right;">17 March 2014 - 03:03 PM</td>
+      </tr>
+      <tr id="comic_rowo_7018" style="display:none;"><td colspan="6" id="comic_rowi_7018"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(14036)" onclick="return show_search_info(14036);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_14036" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/mugen-sowaka-tokyo-shoujo-onmyouji-r14036"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Mugen Sowaka - Tokyo Shoujo Onmyouji</a></strong></td>
+          <td style="text-align: left;">NANAO Mio</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.68/5"><div style="height: 100%; width: 93%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.68/5"></div></div></td>
+          <td style="text-align: center;">24.7k</td>
+          <td style="text-align: center;">153</td>
+          <td style="text-align: right;">01 December 2015 - 04:35 PM</td>
+      </tr>
+      <tr id="comic_rowo_14036" style="display:none;"><td colspan="6" id="comic_rowi_14036"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(1742)" onclick="return show_search_info(1742);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_1742" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/roommates-r1742"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Roommates (Tokyonin)</a></strong></td>
+          <td style="text-align: left;">tamamusi</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.41/5"><div style="height: 100%; width: 88%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.41/5"></div></div></td>
+          <td style="text-align: center;">43.8k</td>
+          <td style="text-align: center;">53</td>
+          <td style="text-align: right;">05 October 2011 - 01:01 PM</td>
+      </tr>
+      <tr id="comic_rowo_1742" style="display:none;"><td colspan="6" id="comic_rowi_1742"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(6379)" onclick="return show_search_info(6379);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_6379" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/shin-pet-shop-of-horrors-r6379"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Shin Pet Shop of Horrors (Pet Shop of Horrors: Tokyo)</a></strong></td>
+          <td style="text-align: left;">AKINO Matsuri</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="3.67/5"><div style="height: 100%; width: 73%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="3.67/5"></div></div></td>
+          <td style="text-align: center;">49.9k</td>
+          <td style="text-align: center;">12</td>
+          <td style="text-align: right;">--</td>
+      </tr>
+      <tr id="comic_rowo_6379" style="display:none;"><td colspan="6" id="comic_rowi_6379"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(18167)" onclick="return show_search_info(18167);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_18167" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/teito-monogatari-r18167"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Teito Monogatari (Tokyo: The Last Megalopolis)</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">ARAMATA Hiroshi / TAKAHASHI Yousuke</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="0.00/5"><div style="height: 100%; width: 0%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="0.00/5"></div></div></td>
+          <td style="text-align: center;">1.4k</td>
+          <td style="text-align: center;">1</td>
+          <td style="text-align: right;">--</td>
+      </tr>
+      <tr id="comic_rowo_18167" style="display:none;"><td colspan="6" id="comic_rowi_18167"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(16804)" onclick="return show_search_info(16804);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_16804" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-x-day-r16804"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo &quot;X&quot; Day</a></strong></td>
+          <td style="text-align: left;">Kawaguchi Kaiji</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="3.83/5"><div style="height: 100%; width: 76%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="3.83/5"></div></div></td>
+          <td style="text-align: center;">6.7k</td>
+          <td style="text-align: center;">26</td>
+          <td style="text-align: right;">19 October 2015 - 09:56 AM</td>
+      </tr>
+      <tr id="comic_rowo_16804" style="display:none;"><td colspan="6" id="comic_rowi_16804"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(8210)" onclick="return show_search_info(8210);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_8210" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-alice-r8210"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Alice</a></strong></td>
+          <td style="text-align: left;">CHIYA Toriko</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.00/5"><div style="height: 100%; width: 80%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.00/5"></div></div></td>
+          <td style="text-align: center;">43.8k</td>
+          <td style="text-align: center;">78</td>
+          <td style="text-align: right;">05 May 2015 - 10:48 AM</td>
+      </tr>
+      <tr id="comic_rowo_8210" style="display:none;"><td colspan="6" id="comic_rowi_8210"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(6829)" onclick="return show_search_info(6829);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_6829" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-bardo-r6829"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Bardo</a></strong></td>
+          <td style="text-align: left;">TAWARA Kito / ASOU Gatou</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.00/5"><div style="height: 100%; width: 80%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.00/5"></div></div></td>
+          <td style="text-align: center;">22.3k</td>
+          <td style="text-align: center;">67</td>
+          <td style="text-align: right;">15 September 2012 - 06:03 PM</td>
+      </tr>
+      <tr id="comic_rowo_6829" style="display:none;"><td colspan="6" id="comic_rowi_6829"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(2187)" onclick="return show_search_info(2187);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_2187" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-crazy-paradise-r2187"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Crazy Paradise</a></strong></td>
+          <td style="text-align: left;">NAKAMURA Yoshiki</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.59/5"><div style="height: 100%; width: 91%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.59/5"></div></div></td>
+          <td style="text-align: center;">201.6k</td>
+          <td style="text-align: center;">166</td>
+          <td style="text-align: right;">09 October 2015 - 11:26 PM</td>
+      </tr>
+      <tr id="comic_rowo_2187" style="display:none;"><td colspan="6" id="comic_rowi_2187"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(6825)" onclick="return show_search_info(6825);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_6825" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-deadline-r6825"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Deadline</a></strong></td>
+          <td style="text-align: left;">SAKAMOTO Akira &amp; HIRAI Tarou / SAKAMOTO Akira</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.14/5"><div style="height: 100%; width: 82%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.14/5"></div></div></td>
+          <td style="text-align: center;">60k</td>
+          <td style="text-align: center;">34</td>
+          <td style="text-align: right;">15 September 2012 - 02:06 AM</td>
+      </tr>
+      <tr id="comic_rowo_6825" style="display:none;"><td colspan="6" id="comic_rowi_6825"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(2848)" onclick="return show_search_info(2848);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_2848" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-depato-sensou-taikenki-r2848"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Depato Sensou Taikenki</a></strong></td>
+          <td style="text-align: left;">MATSUI Yuusei</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.50/5"><div style="height: 100%; width: 90%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.50/5"></div></div></td>
+          <td style="text-align: center;">74.8k</td>
+          <td style="text-align: center;">62</td>
+          <td style="text-align: right;">16 April 2015 - 05:12 AM</td>
+      </tr>
+      <tr id="comic_rowo_2848" style="display:none;"><td colspan="6" id="comic_rowi_2848"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(13358)" onclick="return show_search_info(13358);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_13358" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-dted-r13358"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo DTED</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">Kotani Yoko</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.65/5"><div style="height: 100%; width: 93%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.65/5"></div></div></td>
+          <td style="text-align: center;">302.5k</td>
+          <td style="text-align: center;">1997</td>
+          <td style="text-align: right;">10 May 2016 - 06:38 AM</td>
+      </tr>
+      <tr id="comic_rowo_13358" style="display:none;"><td colspan="6" id="comic_rowi_13358"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(7109)" onclick="return show_search_info(7109);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_7109" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-eighties-r7109"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Eighties</a></strong></td>
+          <td style="text-align: left;">ANDO Yuma / OHISHI Tomoya</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.33/5"><div style="height: 100%; width: 86%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.33/5"></div></div></td>
+          <td style="text-align: center;">81.9k</td>
+          <td style="text-align: center;">40</td>
+          <td style="text-align: right;">18 October 2012 - 03:20 AM</td>
+      </tr>
+      <tr id="comic_rowo_7109" style="display:none;"><td colspan="6" id="comic_rowi_7109"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(11599)" onclick="return show_search_info(11599);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_11599" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-erogance-r11599"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Erogance</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">SUGI Emiko</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="2.00/5"><div style="height: 100%; width: 40%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="2.00/5"></div></div></td>
+          <td style="text-align: center;">23.7k</td>
+          <td style="text-align: center;">28</td>
+          <td style="text-align: right;">06 April 2014 - 12:19 AM</td>
+      </tr>
+      <tr id="comic_rowo_11599" style="display:none;"><td colspan="6" id="comic_rowi_11599"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(967)" onclick="return show_search_info(967);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_967" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-esp-r967"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo ESP</a></strong></td>
+          <td style="text-align: left;">SEGAWA Hajime</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.51/5"><div style="height: 100%; width: 90%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.51/5"></div></div></td>
+          <td style="text-align: center;">1.1m</td>
+          <td style="text-align: center;">4103</td>
+          <td style="text-align: right;">24 April 2016 - 06:57 AM</td>
+      </tr>
+      <tr id="comic_rowo_967" style="display:none;"><td colspan="6" id="comic_rowi_967"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(15163)" onclick="return show_search_info(15163);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_15163" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-esp-x-ga-rei-shadow-walker-r15163"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo ESP x Ga-rei - Shadow Walker</a></strong></td>
+          <td style="text-align: left;">SEGAWA Hajime</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.74/5"><div style="height: 100%; width: 94%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.74/5"></div></div></td>
+          <td style="text-align: center;">40.4k</td>
+          <td style="text-align: center;">355</td>
+          <td style="text-align: right;">29 July 2015 - 06:42 PM</td>
+      </tr>
+      <tr id="comic_rowo_15163" style="display:none;"><td colspan="6" id="comic_rowi_15163"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(3056)" onclick="return show_search_info(3056);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_3056" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-ghoul-r3056"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Ghoul</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">ISHIDA Sui</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.72/5"><div style="height: 100%; width: 94%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.72/5"></div></div></td>
+          <td style="text-align: center;">2.1m</td>
+          <td style="text-align: center;">7735</td>
+          <td style="text-align: right;">05 June 2015 - 03:18 PM</td>
+      </tr>
+      <tr id="comic_rowo_3056" style="display:none;"><td colspan="6" id="comic_rowi_3056"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(13555)" onclick="return show_search_info(13555);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_13555" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-ghoul-oneshot-r13555"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Ghoul (Oneshot)</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">ISHIDA Sui</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.71/5"><div style="height: 100%; width: 94%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.71/5"></div></div></td>
+          <td style="text-align: center;">105.7k</td>
+          <td style="text-align: center;">180</td>
+          <td style="text-align: right;">19 October 2014 - 01:50 PM</td>
+      </tr>
+      <tr id="comic_rowo_13555" style="display:none;"><td colspan="6" id="comic_rowi_13555"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(13107)" onclick="return show_search_info(13107);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_13107" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-ghoul-jack-r13107"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Ghoul JACK</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">ISHIDA Sui</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.57/5"><div style="height: 100%; width: 91%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.57/5"></div></div></td>
+          <td style="text-align: center;">329.3k</td>
+          <td style="text-align: center;">1261</td>
+          <td style="text-align: right;">27 June 2015 - 08:41 AM</td>
+      </tr>
+      <tr id="comic_rowo_13107" style="display:none;"><td colspan="6" id="comic_rowi_13107"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(13502)" onclick="return show_search_info(13502);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_13502" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-ghoulre-r13502"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Ghoul:re</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">ISHIDA Sui</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.66/5"><div style="height: 100%; width: 93%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.66/5"></div></div></td>
+          <td style="text-align: center;">1.6m</td>
+          <td style="text-align: center;">7742</td>
+          <td style="text-align: right;">15 May 2016 - 08:24 AM</td>
+      </tr>
+      <tr id="comic_rowo_13502" style="display:none;"><td colspan="6" id="comic_rowi_13502"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(1045)" onclick="return show_search_info(1045);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_1045" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-girls-destruction-r1045"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Girls Destruction</a></strong> <img src='http://bato.to/forums/public/style_images/master/progressbar_warning.png' alt='Mature' data-tooltip='This comic has been rated mature.' /></td>
+          <td style="text-align: left;">BETTEN Court</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="3.92/5"><div style="height: 100%; width: 78%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="3.92/5"></div></div></td>
+          <td style="text-align: center;">543.3k</td>
+          <td style="text-align: center;">1018</td>
+          <td style="text-align: right;">21 June 2015 - 10:52 PM</td>
+      </tr>
+      <tr id="comic_rowo_1045" style="display:none;"><td colspan="6" id="comic_rowi_1045"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(11520)" onclick="return show_search_info(11520);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_11520" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-hatsu-isekai-yuki-r11520"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Hatsu Isekai Yuki</a></strong></td>
+          <td style="text-align: left;">OHTAKE Masao</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.59/5"><div style="height: 100%; width: 91%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.59/5"></div></div></td>
+          <td style="text-align: center;">111k</td>
+          <td style="text-align: center;">513</td>
+          <td style="text-align: right;">07 May 2016 - 12:42 AM</td>
+      </tr>
+      <tr id="comic_rowo_11520" style="display:none;"><td colspan="6" id="comic_rowi_11520"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(2913)" onclick="return show_search_info(2913);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_2913" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-innocent-r2913"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Innocent</a></strong></td>
+          <td style="text-align: left;">NARUMI Naru</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.56/5"><div style="height: 100%; width: 91%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.56/5"></div></div></td>
+          <td style="text-align: center;">752.5k</td>
+          <td style="text-align: center;">1897</td>
+          <td style="text-align: right;">22 April 2015 - 06:07 PM</td>
+      </tr>
+      <tr id="comic_rowo_2913" style="display:none;"><td colspan="6" id="comic_rowi_2913"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(8114)" onclick="return show_search_info(8114);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_8114" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-jungle-r8114"><img src="http://bato.to/forums/public/style_images/master/book.png" alt="Status"/> Tokyo Jungle</a></strong></td>
+          <td style="text-align: left;">Sony Computer Entertainment / Marihana Roku</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="4.00/5"><div style="height: 100%; width: 80%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="4.00/5"></div></div></td>
+          <td style="text-align: center;">25.3k</td>
+          <td style="text-align: center;">34</td>
+          <td style="text-align: right;">16 March 2014 - 10:58 PM</td>
+      </tr>
+      <tr id="comic_rowo_8114" style="display:none;"><td colspan="6" id="comic_rowi_8114"></td></tr>      <tr>
+          <td style="text-align: left;">
+            <a href="javascript:void(12912)" onclick="return show_search_info(12912);"><img src="/forums/public/style_images/master/information.png" style="margin-top: -2px;"></a>
+            <img id="loading_row_12912" src="/forums/public/style_images/master/loading.gif" style="margin: -2px; display: none;">
+            <strong><a href="http://bato.to/comic/_/tokyo-karasu-r12912"><img src="http://bato.to/forums/public/style_images/master/book_open.png" alt="Status"/> Tokyo Karasu</a></strong></td>
+          <td style="text-align: left;">KOZAKI Yusuke &amp; MIYASHITA Hiroki / MIYASHITA Hiroki</td>
+          <td style="text-align: center;"><div style="margin-bottom: -2px; display: inline-block; width: 80px; height: 16px; background-image:url(http://bato.to/forums/public/style_images/master/star_off.png);" title="0.00/5"><div style="height: 100%; width: 0%; background-image:url(http://bato.to/forums/public/style_images/master/star.png);" title="0.00/5"></div></div></td>
+          <td style="text-align: center;">14.5k</td>
+          <td style="text-align: center;">20</td>
+          <td style="text-align: right;">--</td>
+      </tr>
+      <tr id="comic_rowo_12912" style="display:none;"><td colspan="6" id="comic_rowi_12912"></td></tr>      <tr id="show_more_row"><td colspan="6" style="text-align:center;"><input type="button" name="reset" style="width:250px;" value="Show More" class="input_submit" onclick="update_comic_search('comic_search_form', true, 1)" /></td></tr>    </tbody>
+    </table>
+</div><br/>* A view count is the count of the comic page viewed since beginning. Not chapter views!
+        
+        <ol class='breadcrumb bottom ipsList_inline left clearfix clear'>
+                      <li><a href='http://bato.to/forums/'>Batoto Forums</a></li>
+              
+            
+              <li><span class='nav_sep'>&rarr;</span> <span>Batoto Comics</span></li>
+              
+            
+
+        </ol>
+                
+      </div>
+            </div> <!-- end mainContent -->
+      <!-- ::: FOOTER (Change skin, language, mark as read, etc) ::: -->
+      <div id='footer_utilities' class='clearfix clear'>
+        <a rel="nofollow" href='#top' id='backtotop' title='Go to top'><img src='http://bato.to/forums/public/style_images/subway/top.png' alt='' /></a>
+        <div class='skin_link'><a href="http://www.ipbfocus.com">IPB skin</a> by <a href="http://www.ipbfocus.com">IPBFocus</a></div>
+        <!-- Copyright Information -->
+                  <p id='copyright'>
+                    <a href='http://www.invisionpower.com/apps/board/' title='Community Forum Software by Invision Power Services'>Community Forum Software by IP.Board</a><br />Licensed to: Batoto!</p>
+    <!-- / Copyright -->
+        <ul class='ipsList_inline left'>
+          <li>
+            <img src='http://bato.to/forums/public/style_images/subway/feed.png' alt='RSS Feed' id='rss_feed' class='clickable' />
+          </li>
+          
+            
+          
+            <li>
+              <a rel="nofollow" href='#' id='new_language'>English (USA) (Batoto Custom)</a>              
+              <ul id='new_language_menucontent' class='ipbmenu_content with_checks' style='display: none'>
+                
+                  <li >
+                    <a href="?name=tokyo&amp;name_cond=c&amp;k=880ea6a14ea49e853634fbdc5015a024&amp;setlanguage=1&amp;cal_id=&amp;langid=1">English (USA)</a>
+                  </li>
+                
+
+                  <li class='selected'>
+                    <a href="?name=tokyo&amp;name_cond=c&amp;k=880ea6a14ea49e853634fbdc5015a024&amp;setlanguage=1&amp;cal_id=&amp;langid=2">English (USA) (Batoto Custom)</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+          
+          <li>
+            <a href="http://bato.to/forums/index.php?app=core&amp;module=help" title='View help' rel="help" accesskey='6'>Help</a>
+          </li>
+          <li><a href="/tos">Terms of Service</a></li>
+          <li><a href="/abuse">Abuse</a></li>
+          <li><a href="/privacy">Privacy</a></li>
+        </ul>
+      </div>
+      
+      <div id='stats_div'></div>
+      
+        <script type="text/javascript">
+          ipb.global.lightBoxIsOff();
+        </script>
+      
+      <div id='inline_login_form' class='ipbfs_login' style="display:none">
+    <form action="https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=login&amp;do=process" method="post" id='login'>
+      <input type='hidden' name='auth_key' value='880ea6a14ea49e853634fbdc5015a024' />
+      <input type="hidden" name="referer" value="http://bato.to/search?name=tokyo&name_cond=c" />
+      <h3>Sign In</h3>
+      <div class='ipsBox_notice'>
+          <ul class='ipsList_inline'>
+            
+            
+              <li><a href="https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=login&amp;serviceClick=twitter" class='ipsButton_secondary'><img src="http://bato.to/forums/public/style_images/subway/loginmethods/twitter.png" alt="Twitter" /> &nbsp; Use Twitter</a></li>
+            
+            
+              
+          </ul>
+        </div>
+      
+            <div class='ipbfs_login_row'>
+
+                <div class='ipbfs_login_col'>
+                    <span class='right desc lighter blend_links'><a href="https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=register" title='Register now!'>Register now!</a></span>
+                <strong><label for='ips_username'>Username</label></strong>
+                    <div class='ipsField_content'>
+                      <input id='ips_username' type='text' class='input_text ipbfs_login_input ipbfs_luser' name='ips_username' placeholder="Username" size='30' tabindex='1' />
+                    </div>
+                </div>
+                
+                <div class='ipbfs_login_col'>
+                    <span class='right desc lighter blend_links'><a href='https://bato.to/forums/index.php?app=core&amp;module=global&amp;section=lostpass' title='Retrieve password'>I've forgotten my password</a></span>
+                    <strong><label for='ips_password'>Password</label></strong>
+                    <div class='ipsField_content'>
+                        <input id='ips_password' type='password' class='input_text ipbfs_login_input ipbfs_lpassword' name='ips_password' placeholder="Password" size='30' tabindex='2' /><br />
+                    </div>
+                </div>
+        
+            </div>
+            
+            <div class='clearfix'>
+        
+                <div class='ipbfs_login_col'>
+                    <input type='checkbox' id='inline_remember' checked='checked' name='rememberMe' value='1' class='input_check left' />
+                    <div style='padding-left: 20px;'>
+                        <label for='inline_remember'>
+                            <strong>Remember me</strong>
+                            <span class='desc lighter' style='display: block; padding-top: 5px;'>This is not recommended for shared computers</span>
+                        </label>
+                    </div>
+                </div>
+    
+                
+                <div class='ipbfs_login_col'>
+                    <input type='checkbox' id='inline_invisible' name='anonymous' value='1' class='input_check left' />
+                    <div style='padding-left: 20px;'>
+                        <label for='inline_invisible'>
+                            <strong>Sign in anonymously</strong>
+                            <span class='desc lighter' style='display: block; padding-top: 5px;'>Don't add me to the active users list</span>
+                        </label>
+                    </div>
+                </div>
+                
+    
+            </div>
+            
+            <div class='ipsForm_submit ipsForm_center clear'>
+                <input type='submit' class='input_submit' value='Sign In' />
+            </div>
+
+    </form>
+  </div>
+    </div>
+    
+  
+
+  
+
+        
+<!-- Quantcast Tag, part 2 -->
+<script type="text/javascript">
+    _qevents.push( { qacct:"p-a3pexI-oMJK6E" } );
+</script>
+<noscript>
+    <div style="display: none;">
+        <img src="//pixel.quantserve.com/pixel/p-a3pexI-oMJK6E.gif" height="1" width="1" alt="Quantcast"/>
+    </div>
+</noscript>
+  </body>
+</html>
