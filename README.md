@@ -9,10 +9,10 @@ An API to search for mangas to read and their urls
 $ python mangasearch.py <query> 
 
 # to search on other sites:
-$mangasearch.py <query> --site mangapark
-$mangasearch.py <query> --site mangafox
-$mangasearch.py <query> --site mangareader
-$mangasearch.py <query> --site mangapanda
+$ mangasearch.py <query> --site mangapark
+$ mangasearch.py <query> --site mangafox
+$ mangasearch.py <query> --site mangareader
+$ mangasearch.py <query> --site mangapanda
 ```
 
 ## Sites available
